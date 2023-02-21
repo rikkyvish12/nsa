@@ -332,10 +332,10 @@
                         <button class="btn navbar-toggler-humburger-icon navbar-vertical-toggle"
                             data-bs-toggle="tooltip" data-bs-placement="left" title="Toggle Navigation"><span
                                 class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-                    </div><a class="navbar-brand" href="index.html">
+                    </div><a class="navbar-brand" href="/dashboard">
                         <div class="d-flex align-items-center py-3"><img class="me-2"
                                 src="assets/img/icons/spot-illustrations/falcon.png" alt=""
-                                width="40" /><span class="font-sans-serif">falcon</span></div>
+                                width="40" /><span class="font-sans-serif">NSA</span></div>
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
@@ -350,45 +350,45 @@
                                             class="nav-link-text ps-1">Dashboard</span></div>
                                 </a>
                                 <ul class="nav collapse show" id="dashboard">
-                                    <li class="nav-item"><a class="nav-link active" href="index.html">
+                                    <li class="nav-item"><a class="nav-link active" href="/dashboard">
                                             <div class="d-flex align-items-center"><span
                                                     class="nav-link-text ps-1">Default</span></div>
                                         </a><!-- more inner pages-->
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="dashboard/analytics.html">
+                                    <li class="nav-item"><a class="nav-link" href="/about">
                                             <div class="d-flex align-items-center"><span
-                                                    class="nav-link-text ps-1">Analytics</span></div>
+                                                    class="nav-link-text ps-1">About</span></div>
                                         </a><!-- more inner pages-->
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="dashboard/crm.html">
+                                    <li class="nav-item"><a class="nav-link" href="/gallery">
                                             <div class="d-flex align-items-center"><span
-                                                    class="nav-link-text ps-1">CRM</span></div>
+                                                    class="nav-link-text ps-1">Gallery</span></div>
                                         </a><!-- more inner pages-->
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="dashboard/e-commerce.html">
+                                    <li class="nav-item"><a class="nav-link" href="/event">
                                             <div class="d-flex align-items-center"><span
-                                                    class="nav-link-text ps-1">E commerce</span></div>
+                                                    class="nav-link-text ps-1">Event</span></div>
                                         </a><!-- more inner pages-->
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="dashboard/lms.html">
+                                    <li class="nav-item"><a class="nav-link" href="/service">
                                             <div class="d-flex align-items-center"><span
-                                                    class="nav-link-text ps-1">LMS</span><span
+                                                    class="nav-link-text ps-1">Our Service</span><span
                                                     class="badge rounded-pill ms-2 badge-soft-success">New</span>
                                             </div>
                                         </a><!-- more inner pages-->
                                     </li>
                                     <li class="nav-item"><a class="nav-link"
-                                            href="dashboard/project-management.html">
+                                            href="/member">
                                             <div class="d-flex align-items-center"><span
                                                     class="nav-link-text ps-1">Management</span></div>
                                         </a><!-- more inner pages-->
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="dashboard/saas.html">
+                                    <li class="nav-item"><a class="nav-link" href="/contact">
                                             <div class="d-flex align-items-center"><span
-                                                    class="nav-link-text ps-1">SaaS</span></div>
+                                                    class="nav-link-text ps-1">Contact Us</span></div>
                                         </a><!-- more inner pages-->
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="dashboard/support-desk.html">
+                                    <li class="nav-item"><a class="nav-link" href="/support">
                                             <div class="d-flex align-items-center"><span
                                                     class="nav-link-text ps-1">Support desk</span><span
                                                     class="badge rounded-pill ms-2 badge-soft-success">New</span>

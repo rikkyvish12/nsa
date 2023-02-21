@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Event;
 use Illuminate\Http\Request;
-
+use App\Repositories\EventRepository;
+use Storage, Str, Log;
 class EventController extends Controller
 {
     /**
@@ -12,9 +13,20 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    protected $repository;
+
+    public function __construct(EventRepository $repository)
+    {
+         $this->repository = $repository;
+    }
+
     public function index()
     {
-        //
+        $allEvent = $this->repository->getAllEvent();
+        return view(
+            'event/index',
+            compact('allEvent')
+        );
     }
 
     /**
@@ -22,9 +34,30 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+            'image' => 'required'
+        ]);
+        
+        $event = new Event();
+        $event->name = $request->name;
+        $event->description = $request->name;
+
+        $fileName = 'event-'. Str::random(8)
+        . '-' . date('Ymd')
+        . '.' . request()->image->getClientOriginalExtension();
+
+        Storage::disk('public')->put(
+            UPLOADS_EVENT_PATH . $fileName,
+            file_get_contents(request()->image)
+        );
+        $event->image = $fileName;
+        $event->save();
+
+        return back()->with('success', 'Event created successfully');
     }
 
     /**
