@@ -13,12 +13,17 @@
 </div>
 <div class="row g-0">
   <div class="col-lg-12 pe-lg-2">
+    @php $route = ($event_update) ? 'event/'.$event_update->id : 'event' @endphp
+    @php $method = ($event_update) ? 'PUT' : 'POST' @endphp
+  <form action="{{ url($route) }}" method="POST" enctype="multipart/form-data">
+    @csrf
+    @method($method)
     <div class="card mb-3">
       <div class="card-header">
         <h5 class="mb-0">Event Details</h5>
       </div>
       <div class="card-body bg-light">
-        <form>
+       
           <div class="row gx-2">
             <div class="col-12 mb-3"><label class="form-label" for="event-name">Event Title</label><input class="form-control" id="event-name" type="text" placeholder="Event Title" name="name"></div>
            <div class="col-12">
@@ -26,7 +31,7 @@
             </div>
            <div class="col-12"><label class="form-label" for="event-description">Description</label><textarea class="form-control" id="event-description" rows="6" name="description"></textarea></div>
           </div>
-        </form>
+        
       </div>
     </div>
     <div class="card mb-3">
@@ -34,9 +39,16 @@
         <h5 class="mb-0">Upload Photos</h5>
       </div>
       <div class="card-body bg-light">
-        <input type="file" name="image" class="form-control"
+        <input type="file" name="image" class="form-control" />
       </div>
     </div>
+    <div class="card mb-3">
+      
+      <div class="card-body bg-light">
+        <input type="submit" class="btn btn-success" name="submit" value="Submit" />
+      </div>
+    </div>
+  </form>
   </div>
   
 </div>

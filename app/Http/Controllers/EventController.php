@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Event;
 use Illuminate\Http\Request;
 use App\Repositories\EventRepository;
-use Storage, Str, Log;
+use Storage, Str;
 class EventController extends Controller
 {
     /**
@@ -22,11 +22,9 @@ class EventController extends Controller
 
     public function index()
     {
-        $allEvent = $this->repository->getAllEvent();
-        return view(
-            'event/index',
-            compact('allEvent')
-        );
+        $events = $this->repository->getAllEvent();
+        $event_update = false;
+        return view('event/index', compact(['events', 'event_update']));
     }
 
     /**
@@ -34,30 +32,9 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(Request $request)
+    public function create()
     {
-        $request->validate([
-            'name' => 'required',
-            'description' => 'required',
-            'image' => 'required'
-        ]);
-        
-        $event = new Event();
-        $event->name = $request->name;
-        $event->description = $request->name;
-
-        $fileName = 'event-'. Str::random(8)
-        . '-' . date('Ymd')
-        . '.' . request()->image->getClientOriginalExtension();
-
-        Storage::disk('public')->put(
-            UPLOADS_EVENT_PATH . $fileName,
-            file_get_contents(request()->image)
-        );
-        $event->image = $fileName;
-        $event->save();
-
-        return back()->with('success', 'Event created successfully');
+        //
     }
 
     /**
@@ -68,7 +45,28 @@ class EventController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+            'image' => 'required'
+        ]);
+        
+        $event = new Event();
+        $event->name = $request->name;
+        $event->description = $request->name;
+        
+        $fileName = 'event-'. Str::random(8)
+        . '-' . date('Ymd')
+        . '.' . request()->image->getClientOriginalExtension();
+        
+        Storage::disk('public')->put(
+            'assets/events/' . $fileName,
+            file_get_contents(request()->image)
+        );
+        $event->image = $fileName;
+        $event->save();
+
+        return back()->with('success', 'Event created successfully');
     }
 
     /**
@@ -77,9 +75,11 @@ class EventController extends Controller
      * @param  \App\Models\Event  $event
      * @return \Illuminate\Http\Response
      */
-    public function show(Event $event)
+    public function show($id)
     {
-        //
+        $event_update = Event::find($id);
+        $events = $this->repository->getAllEvent();
+        return view('event/index', compact(['events', 'event_update']));
     }
 
     /**
@@ -100,9 +100,33 @@ class EventController extends Controller
      * @param  \App\Models\Event  $event
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Event $event)
+    public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+            'image' => 'required'
+        ]);
+        
+        $event = Event::find($id);
+        $event->name = $request->name;
+        $event->description = $request->name;
+
+        if (request()->image) {
+            $fileName = 'event-'. Str::random(8)
+            . '-' . date('Ymd')
+            . '.' . request()->image->getClientOriginalExtension();
+
+            Storage::disk('public')->put(
+                UPLOADS_EVENT_PATH . $fileName,
+                file_get_contents(request()->image)
+            );
+            $event->image = $fileName;
+        }
+        
+        $event->update();
+
+        return back()->with('success', 'Event Update successfully');
     }
 
     /**
@@ -111,8 +135,11 @@ class EventController extends Controller
      * @param  \App\Models\Event  $event
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Event $event)
+    public function destroy($id)
     {
-        //
+        $event = Event::find($id);
+        $event->delete();
+
+        return redirect()->back()->with('success', 'Event deleted Successfully');
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 
@@ -38,7 +39,10 @@ Route::middleware('auth')->group(function () {
     Route::get('member', function() {
         return view('member.index');
     });
-    Route::get('event', [EventController::class, 'index'])->name('event');
-    Route::post('event', [EventController::class, 'create'])->name('create');
+
+    Route::resource('event',EventController::class);
+    Route::resource('about',AboutController::class);
+    // Route::get('event', [EventController::class, 'index'])->name('event');
+    // Route::post('event', [EventController::class, 'create'])->name('store');
 
 });

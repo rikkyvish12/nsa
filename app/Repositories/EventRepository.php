@@ -4,11 +4,12 @@ namespace App\Repositories;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\DB;
 use App\Models\User;
+use App\Models\Event;
 
 class EventRepository
 {
     public function getAllEvent() {
-        return "Hello";
+        return Event::all();
     }
     // public function getLeads()
     // {
