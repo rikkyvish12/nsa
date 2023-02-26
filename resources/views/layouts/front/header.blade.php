@@ -144,33 +144,7 @@
                                             <a href="{{ route('services') }}">Services</a>
                                             
                                         </li>
-                                        <li>
-                                            <a href="blog-grid.html">blog</a>
-                                            <ul>
-                                                <li><a href="blog-grid.html">blog grid</a></li>
-                                                <li><a href="blog-left.html">blog left sidebar</a></li>
-                                                <li><a href="blog-right.html">blog right sidebar</a></li>
-                                                <li><a href="single-blog.html">single blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">page</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="404.html">404 page</a>
-                                                </li>
-                                                <li>
-                                                    <a href="faq.html">FAQs Page</a>
-                                                </li>
-                                                <li>
-                                                    <a href="login.html">login</a>
-                                                </li>
-                                                <li>
-                                                    <a href="registration.html">registration
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                       
                                         <li>
                                             <a href="{{ route('contact') }}">contact</a>
                                         </li>
