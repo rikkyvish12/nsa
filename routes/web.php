@@ -16,6 +16,8 @@ use App\Http\Controllers\LoginController;
 |
 */
 
+//test code
+
 Route::get('/', function () {
     return view('welcome');
 });
