@@ -14,7 +14,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2">
-                                    <h2>kika Semi Finals at city stadium</h2>
+                                    <h2>National Sports Academy</h2>
                                     <p>Friday, 10th Sep, 2018, 16:00GMT</p>
                                     <a href="#" class="kick-btn">
                                         buy tickets now
@@ -56,12 +56,31 @@
                 <div class="col-md-8">
                     <div class="kick-about-right">
                         <div class="kick-section-heading">
-                            <h2>about <span>kick</span></h2>
+                            <h2>Welcome to<span> National Sports Academy</span></h2>
                             <div class="title-line-one"></div>
                             <div class="title-line-two"></div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit. Nam sed ligula odio. Sed id metus felis. Ut pretium nisl non justo condimentum id tincidunt nunc faucibus. Ut neque eros, pulvinar eu blandit quis, lacinia nec ipsum. Etiam vel orci ipsum. Sed eget velit ipsum. Duis in tortor scelerisque felis .</p>
-                        <div class="row">
+                        <p>
+                            National Sports Academy (NSA) is a leading multi-solutions provider of
+                            specially in Sports, Sports Education, Sports Development and Event
+                            Management. We are one of the most promising multi-sports cultural
+                            disciplined organisation in the India operating from its original permanent base
+                            in Mumbai.
+                        </p>
+                        <p>
+                            NSA is fully committed to high-quality performance to ensure customer
+                            satisfaction.Our approach to business in partnership-our clients and
+                            employees working together to achieve project/contract/business objectives in
+                            mutually beneficial manner
+                        </p><br>
+                        <p>
+                            Our main emphasis is on properly managing scope , schedule, budgets and
+                            quality.
+                            We conduct our business in line with best practices and with integrity and
+                            honesty. Continues improvement is a way of life at NSA and underlines our
+                            commitment to be the best service provider to our valued clients
+                        </p>
+                        {{-- <div class="row">
                             <div class="col-md-6">
                                 <div class="single-about-right">
                                     <div class="single-about-right-con">
@@ -108,12 +127,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="kick-about-left">
-                        <img src="frontassets/img/img-03.png" alt="about player" />
+                        <img src="frontassets/img/frontimg.jpg" alt="about player" />
                     </div>
                 </div>
             </div>
@@ -128,7 +147,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="kick-section-heading">
-                        <h2>last match <span>result</span></h2>
+                        <h2>List Of <span>Sports We are into</span></h2>
                         <div class="title-line-one"></div>
                         <div class="title-line-two"></div>
                     </div>
@@ -139,45 +158,48 @@
                     <div class="col-md-5">
                         <div class="last-match-result-one last-match-result">
                             <div class="col-md-12">
-                                <h3 class="result">win</h3>
+                                <h3 class="result">Olympic Sports</h3>
                                 <div class="result-details">
                                     <h3 class="result-details-left">
-                                        <a href="#">kick dragon</a>
+                                        <a href="#"> (Outdoor)</a>
                                     </h3>
                                     <ul>
-                                        <li><p>Roman Fenley</p><span>(15)</span></li>
-                                        <li><p>Jonah Jolicoeur</p><span>(39)</span></li>
-                                        <li><p>Miguel Beckel</p><span>(25)</span></li>
+                                        <li><p>Athletics</p><span>Rugbdy</span></li>
+                                        <li><p>Football</p><span>Handball</span></li>
+                                        <li><p>Hockey</p><span>Baseball & Softbal</span></li>
+                                        <li><p>Shooting</p><span>Archery</span></li>
                                     </ul>
                                     <div class="last-match-logo">
-                                        <a href="#"><img src="frontassets/img/team-4.png" alt="logo" /></a>
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="last-match-score">
-                            <h2>3 <span class="devider">/</span> <span class="lose-point">2</span> </h2>
-                        </div>
+                        {{-- <div class="last-match-score">
+                            <h2>2 <span class="devider">/</span> <span class="lose-point">4</span> </h2>
+                        </div> --}}
                     </div>
                     <div class="col-md-5">
                         <div class="last-match-result-two last-match-result">
                             <div class="col-md-12">
-                                <h3 class="result">lose</h3>
+                                <h3 class="result">Olympic Sports</h3>
                                 <div class="result-details">
                                     <div class="last-match-logo-right">
-                                        <a href="#"><img src="frontassets/img/team-2.png" alt="logo" /></a>
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
                                     </div>
                                     <h3 class="result-details-right">
                                         <a href="#">
-                                            kick ninja
+                                            (Indoor)
                                         </a>
                                     </h3>
                                     <ul>
-                                        <li><p>Roman Fenley</p><span>(15)</span></li>
-                                        <li><p>Jonah Jolicoeur</p><span>(39)</span></li>
-                                        <li><p>Miguel Beckel</p><span>(25)</span></li>
+                                        <li><p>Gymnastic</p><span>Volleyball</span></li>
+                                        <li><p>Table Tennis</p><span>Lawn Tennis</span></li>
+                                        <li><p>Badminton</p><span>Boxing</span></li>
+                                        <li><p>Squash</p><span>Fencing</span></li>
+                                        <li><p>Swimming</p><span></span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -185,11 +207,66 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
-                <div class="view-all-result">
-                    <a href="#" class="kick-btn">view all result</a>
+                <div class="last-match-box">
+                    <div class="col-md-5">
+                        <div class="last-match-result-one last-match-result">
+                            <div class="col-md-12">
+                                <h3 class="result">Other Sports</h3>
+                                <div class="result-details">
+                                    <h3 class="result-details-left">
+                                        <a href="#"> (Outdoor)</a>
+                                    </h3>
+                                    <ul>
+                                        <li><p>Cricket</p><span>Dodge ball</span></li>
+                                        <li><p>Skating</p><span>Soft Tennis</span></li>
+                                        <li><p>Chess</p><span>Baseball & Softbal</span></li>
+                                        <li><p>Netball</p><span>Tug of War</span></li>
+                                    </ul>
+                                    <div class="last-match-logo">
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        {{-- <div class="last-match-score">
+                            <h2>2 <span class="devider">/</span> <span class="lose-point">4</span> </h2>
+                        </div> --}}
+                    </div>
+                    <div class="col-md-5">
+                        <div class="last-match-result-two last-match-result">
+                            <div class="col-md-12">
+                                <h3 class="result">Indian Sports</h3>
+                                <div class="result-details">
+                                    <div class="last-match-logo-right">
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
+                                    </div>
+                                    <h3 class="result-details-right">
+                                        <a href="#">
+                                            Goa Fotball Federation
+                                        </a>
+                                    </h3>
+                                    <ul>
+                                        <li><p>Throw ball</p><span>Mallkhamb</span></li>
+                                        <li><p>Kho-Kho</p><span>Tennis Ball Cricket</span></li>
+                                        <li><p>Kabbaddi</p><span>Traditional Games</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+{{--             
+            <div class="row">
+                <div class="view-all-result">
+                    <a href="#" class="kick-btn">view all Events</a>
+                </div>
+            </div> --}}
         </div>
     </section>
     <!-- Last Match Result Area End -->
@@ -201,155 +278,121 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="kick-section-heading">
-                        <h2>upcoming <span>matches</span></h2>
+                        <h2>Our <span>Services</span></h2>
                         <div class="title-line-one"></div>
                         <div class="title-line-two"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
+
                 <div class="col-md-12">
                     <div class="upcoming-slider">
-                        <div class="single-upcoming-match">
-                            <h3>Upcoming Match</h3>
-                            <p>10th sep<span>2018</span></p>
-                            <div class="upcoming-match-box">
-                                <h4>Laliga Semi Finals at city stadium</h4>
-                                <p>Friday, 10th Sep, 2016, 16:00GMT</p>
-                                <div class="upcoming-teams-head">
-                                    <div class="row">
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-2.png" alt="team image" />
-                                                </a>
+
+                        
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Sports Event Management</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <div class="team-head-vs">
-                                                <span>VS</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-3.png" alt="team image" />
-                                                </a>
-                                            </div>
+                                            
                                         </div>
                                     </div>
-                                </div>
-                                <div class="upcoming-match-btn">
-                                    <a href="#" class="kick-btn">Buy tickets </a>
-                                    <a href="#" class="kick-btn">view more </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-upcoming-match">
-                            <h3>Upcoming Match</h3>
-                            <p>10th sep<span>2018</span></p>
-                            <div class="upcoming-match-box">
-                                <h4>Laliga Semi Finals at city stadium</h4>
-                                <p>Friday, 10th Sep, 2016, 16:00GMT</p>
-                                <div class="upcoming-teams-head">
-                                    <div class="row">
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-4.png" alt="team image" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <div class="team-head-vs">
-                                                <span>VS</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-2.png" alt="team image" />
-                                                </a>
-                                            </div>
-                                        </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
                                     </div>
                                 </div>
-                                <div class="upcoming-match-btn">
-                                    <a href="#" class="kick-btn">Buy tickets </a>
-                                    <a href="#" class="kick-btn">view more </a>
-                                </div>
                             </div>
-                        </div>
-                        <div class="single-upcoming-match">
-                            <h3>Upcoming Match</h3>
-                            <p>10th sep<span>2018</span></p>
-                            <div class="upcoming-match-box">
-                                <h4>Laliga Semi Finals at city stadium</h4>
-                                <p>Friday, 10th Sep, 2016, 16:00GMT</p>
-                                <div class="upcoming-teams-head">
-                                    <div class="row">
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-4.png" alt="team image" />
-                                                </a>
+
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Trainig Program Long and Short Duration</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <div class="team-head-vs">
-                                                <span>VS</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-2.png" alt="team image" />
-                                                </a>
-                                            </div>
+                                            
                                         </div>
                                     </div>
-                                </div>
-                                <div class="upcoming-match-btn">
-                                    <a href="#" class="kick-btn">Buy tickets </a>
-                                    <a href="#" class="kick-btn">view more </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-upcoming-match">
-                            <h3>Upcoming Match</h3>
-                            <p>10th sep<span>2018</span></p>
-                            <div class="upcoming-match-box">
-                                <h4>Laliga Semi Finals at city stadium</h4>
-                                <p>Friday, 10th Sep, 2016, 16:00GMT</p>
-                                <div class="upcoming-teams-head">
-                                    <div class="row">
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-3.png" alt="team image" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <div class="team-head-vs">
-                                                <span>VS</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <div class="team-head-image">
-                                                <a href="#">
-                                                    <img src="frontassets/img/team-2.png" alt="team image" />
-                                                </a>
-                                            </div>
-                                        </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
                                     </div>
                                 </div>
-                                <div class="upcoming-match-btn">
-                                    <a href="#" class="kick-btn">Buy tickets </a>
-                                    <a href="#" class="kick-btn">view more </a>
+                            </div>
+
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Schools Coaching Programs</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Internationals Sports Tournaments</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+
+
+
                     </div>
                 </div>
             </div>
@@ -359,6 +402,7 @@
     
     
     <!-- Video Area Start -->
+{{-- 
     <section class="kick-video-area section_100">
         <div class="kick-video-overlay"></div>
         <div class="container">
@@ -450,90 +494,10 @@
             </div>
         </div>
     </section>
+     --}}
     <!-- Video Area End -->
     
     
-    <!-- Top Player Area Start -->
-    <section class="kick-top-player-area section_100">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="kick-section-heading">
-                        <h2>top <span>player</span></h2>
-                        <div class="title-line-one"></div>
-                        <div class="title-line-two"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="top-player-slider">
-                        <div class="single-top-player">
-                            <img src="frontassets/img/player-1.jpg" alt="top player" />
-                            <div class="player-info">
-                                <div class="player-nmbr">
-                                    <p>09</p>
-                                </div>
-                                <div class="player-name">
-                                    <h4><a href="#">Ican Ivanovich</a></h4>
-                                    <p>defender</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-top-player">
-                            <img src="frontassets/img/player-2.jpg" alt="top player" />
-                            <div class="player-info">
-                                <div class="player-nmbr">
-                                    <p>22</p>
-                                </div>
-                                <div class="player-name">
-                                    <h4><a href="#">Lan Smith</a></h4>
-                                    <p>Goal Kipper</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-top-player">
-                            <img src="frontassets/img/player-3.jpg" alt="top player" />
-                            <div class="player-info">
-                                <div class="player-nmbr">
-                                    <p>13</p>
-                                </div>
-                                <div class="player-name">
-                                    <h4><a href="#">Fizz Mark</a></h4>
-                                    <p>defender</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-top-player">
-                            <img src="frontassets/img/player-4.jpg" alt="top player" />
-                            <div class="player-info">
-                                <div class="player-nmbr">
-                                    <p>07</p>
-                                </div>
-                                <div class="player-name">
-                                    <h4><a href="#">Ican Ivanovich</a></h4>
-                                    <p>defender</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-top-player">
-                            <img src="frontassets/img/player-2.jpg" alt="top player" />
-                            <div class="player-info">
-                                <div class="player-nmbr">
-                                    <p>04</p>
-                                </div>
-                                <div class="player-name">
-                                    <h4><a href="#">Vicky raj</a></h4>
-                                    <p>defender</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Top Player Area End -->
     
     
     <!-- Match Gallery Area Start -->
@@ -542,7 +506,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="kick-section-heading">
-                        <h2>Match <span>Gallery</span></h2>
+                        <h2>Our <span>Gallery</span></h2>
                         <div class="title-line-one"></div>
                         <div class="title-line-two"></div>
                     </div>
@@ -551,9 +515,9 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="single-match-gallery">
-                       <a href="frontassets/img/gallery-1.jpg" class="gallery-lightbox">
+                       <a href="frontassets/gallery/1.jpg" class="gallery-lightbox">
                             <div class="project-img">
-                                <img src="frontassets/img/gallery-1.jpg" alt="single project" />
+                                <img src="frontassets/gallery/1.jpg" alt="single project" />
                                 <div class="single-pro-overlay">
                                     <i class="fa fa-search-plus"></i>
                                 </div>
@@ -563,9 +527,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-match-gallery">
-                       <a href="frontassets/img/gallery-2.jpg" class="gallery-lightbox">
+                       <a href="frontassets/gallery/2.jpg" class="gallery-lightbox">
                             <div class="project-img">
-                                <img src="frontassets/img/gallery-2.jpg" alt="single project" />
+                                <img src="frontassets/gallery/2.jpg" alt="single project" />
                                 <div class="single-pro-overlay">
                                     <i class="fa fa-search-plus"></i>
                                 </div>
@@ -575,9 +539,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-match-gallery">
-                       <a href="frontassets/img/gallery-3.jpg" class="gallery-lightbox">
+                       <a href="frontassets/gallery/3.jpg" class="gallery-lightbox">
                             <div class="project-img">
-                                <img src="frontassets/img/gallery-3.jpg" alt="single project" />
+                                <img src="frontassets/gallery/3.jpg" alt="single project" />
                                 <div class="single-pro-overlay">
                                     <i class="fa fa-search-plus"></i>
                                 </div>
@@ -589,9 +553,9 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="single-match-gallery">
-                       <a href="frontassets/img/gallery-4.jpg" class="gallery-lightbox">
+                       <a href="frontassets/gallery/4.jpg" class="gallery-lightbox">
                             <div class="project-img">
-                                <img src="frontassets/img/gallery-4.jpg" alt="single project" />
+                                <img src="frontassets/gallery/4.jpg" alt="single project" />
                                 <div class="single-pro-overlay">
                                     <i class="fa fa-search-plus"></i>
                                 </div>
@@ -601,9 +565,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-match-gallery">
-                       <a href="frontassets/img/gallery-5.jpg" class="gallery-lightbox">
+                       <a href="frontassets/gallery/5.jpg" class="gallery-lightbox">
                             <div class="project-img">
-                                <img src="frontassets/img/gallery-5.jpg" alt="single project" />
+                                <img src="frontassets/gallery/5.jpg" alt="single project" />
                                 <div class="single-pro-overlay">
                                     <i class="fa fa-search-plus"></i>
                                 </div>
@@ -613,9 +577,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-match-gallery">
-                       <a href="frontassets/img/gallery-6.jpg" class="gallery-lightbox">
+                       <a href="frontassets/gallery/6.jpg" class="gallery-lightbox">
                             <div class="project-img">
-                                <img src="frontassets/img/gallery-6.jpg" alt="single project" />
+                                <img src="frontassets/gallery/6.jpg" alt="single project" />
                                 <div class="single-pro-overlay">
                                     <i class="fa fa-search-plus"></i>
                                 </div>
@@ -627,7 +591,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="load-more">
-                        <a href="#" class="kick-btn">load more</a>
+                        <a href="{{ route('gallery') }}" class="kick-btn">View more</a>
                     </div>
                 </div>
             </div>
@@ -642,7 +606,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="kick-section-heading">
-                        <h2>top <span>products</span></h2>
+                        <h2>Our <span> Associates</span></h2>
                         <div class="title-line-one"></div>
                         <div class="title-line-two"></div>
                     </div>
@@ -652,123 +616,55 @@
                 <div class="col-md-12">
                     <div class="top-product-slider">
                         <div class="single-top-product">
-                            <div class="product-image">
+                            <div class="">
                                 <a href="#">
-                                    <img src="frontassets/img/product-1.jpg" alt="product image" />
+                                    <img src="frontassets/img/asso/logo3.jpg" style="max-width:230px" alt="product image" />
                                 </a>
-                                <div class="product-image-hover">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-heart"></i>
-                                    </a>
-                                </div>
-                                <div class="product-overlay"></div>
+                                
+                                <div class=""></div>
                             </div>
                             <div class="product-text">
-                                <h3><a href="single-shop.html">Shoe</a></h3>
-                                <ul>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-half-o"></i></li>
-                                </ul>
-                                <h2>$390</h2>
+                                <h4><a href="">PSA</a></h4>
+                               
                             </div>
                         </div>
                         <div class="single-top-product">
-                            <div class="product-image">
+                            <div class="">
                                 <a href="#">
-                                    <img src="frontassets/img/product-2.jpg" alt="product image" />
+                                    <img src="frontassets/img/asso/fisce.jpg" style="max-width:230px" alt="product image" />
                                 </a>
-                                <div class="product-image-hover">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-heart"></i>
-                                    </a>
-                                </div>
+                               
+                            </div>
+                            <div class="product-text">
+                                <h3><a href="single-shop.html">FISCE</a></h3>
+                                
+                             
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="">
+                                <a href="#">
+                                    <img src="frontassets/img/asso/logo2.webp" style="max-width:230px" alt="product image" />
+                                </a>
+                             
                                 <div class="product-overlay"></div>
                             </div>
                             <div class="product-text">
-                                <h3><a href="single-shop.html">jersey</a></h3>
-                                <ul>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-half-o"></i></li>
-                                </ul>
-                                <h2>$390</h2>
+                                <h3><a href="single-shop.html">IYSA</a></h3>
+                              
                             </div>
                         </div>
                         <div class="single-top-product">
-                            <div class="product-image">
+                            <div class="">
                                 <a href="#">
-                                    <img src="frontassets/img/product-3.jpg" alt="product image" />
+                                    <img src="frontassets/img/asso/logo4.jpg" style="max-width:230px" alt="product image" />
                                 </a>
-                                <div class="product-image-hover">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-heart"></i>
-                                    </a>
-                                </div>
-                                <div class="product-overlay"></div>
+                             
+                               
                             </div>
                             <div class="product-text">
-                                <h3><a href="single-shop.html">jersey</a></h3>
-                                <ul>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-half-o"></i></li>
-                                </ul>
-                                <h2>$390</h2>
-                            </div>
-                        </div>
-                        <div class="single-top-product">
-                            <div class="product-image">
-                                <a href="#">
-                                    <img src="frontassets/img/product-4.jpg" alt="product image" />
-                                </a>
-                                <div class="product-image-hover">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-heart"></i>
-                                    </a>
-                                </div>
-                                <div class="product-overlay"></div>
-                            </div>
-                            <div class="product-text">
-                                <h3><a href="single-shop.html">Shoe</a></h3>
-                                <ul>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-half-o"></i></li>
-                                </ul>
-                                <h2>$390</h2>
+                                <h3><a href="single-shop.html">MPFI</a></h3>
+                               
                             </div>
                         </div>
                     </div>
@@ -794,10 +690,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="single-latest-post">
-                        <a href="#"><img src="frontassets/img/post-1.jpg" alt="post image" /></a>
+                        <a href="#"><img src="frontassets/gallery/file2.jpg" alt="post image" /></a>
                         <div class="single-post-text">
-                            <h3><a href="#">dipisicing elit sed do eiusmod tempor</a></h3>
-                            <p class="post-date">11 Aug, 2018 / Jhon Doe</p>
+                            <h3><a href="#">Winner of State Football Championship (Youth)</a></h3>
+                            <p class="post-date">11 Aug, 2018 / NSA</p>
                             <p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
                             <div class="post-text-bottom">
                                 <div class="row">
@@ -838,10 +734,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="single-latest-post">
-                        <a href="#"><img src="frontassets/img/post-2.jpg" alt="post image" /></a>
+                        <a href="#"><img src="frontassets/gallery/13.jpg" alt="post image" /></a>
                         <div class="single-post-text">
-                            <h3><a href="#">dipisicing elit sed do eiusmod tempor</a></h3>
-                            <p class="post-date">11 Aug, 2018 / Jhon Doe</p>
+                            <h3><a href="#">Closing ceremony of London Olympic -2012</a></h3>
+                            <p class="post-date">11 Aug, 2018 / NSA</p>
                             <p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
                             <div class="post-text-bottom">
                                 <div class="row">

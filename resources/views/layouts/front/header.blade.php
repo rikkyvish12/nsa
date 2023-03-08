@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Title -->
-    <title>Kick || Football Club HTML Template</title>
+    <title>National Sports Academy</title>
     
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="144x144" href="frontassets/favicons/apple-touch-icon.png">
     
-    <link rel="icon" type="image/png" sizes="32x32" href="frontassets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="frontassets/img/loog.png">
     
-    <link rel="icon" type="image/png" sizes="16x16" href="frontassets/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="frontassets/img/loog.png">
     
     <link rel="manifest" href="frontassets/favicons/manifest.json">
 
@@ -46,6 +46,24 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="frontassets/css/responsive.css">
 
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+
 </head>
 
 
@@ -62,13 +80,13 @@
                         <div class="header-top-left">
                             <div class="dropdown">
                                 <button class="btn-dropdown dropdown-toggle" type="button" id="dropdowncur" data-toggle="dropdown" aria-haspopup="true">
-                                USD
+                                IN
                                     <i class="fa fa-angle-down"></i>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdowncur">
                                     <li>USD</li>
-                                    <li>EURO</li>
-                                    <li>BDT</li>
+                                  
+                                    <li>UK</li>
                                 </ul>
                             </div>
                             <div class="dropdown">
@@ -87,21 +105,15 @@
                     </div>
                     <div class="col-sm-7">
                         <div class="header-top-right">
-                            <a href="#">
-                                <i class="fa fa-shopping-cart"></i>
-                                cart
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-user"></i>
-                                My Account
+                            
+                          
+                            <a href="tel:9967143767">
+                                <i class="fa fa-phone"> </i>
+                                   9967143767
                             </a>
                             <a href="#">
                                 <i class="fa fa-sign-in"></i>
-                                login
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-user-plus"></i>
-                                register
+                                Login
                             </a>
                         </div>
                     </div>
@@ -132,13 +144,18 @@
                             <div class="kick-site-logo">
                                 <div class="responsive-menu-2"></div>
                                 <a href="index-2.html" class="kick-site-logo">
-                                    <img src="frontassets/img/logo.png" alt="site logo" />
+                                    <img src="frontassets/img/loog.png" alt="site logo" />
                                 </a>
                                 <div class="responsive-menu-1"></div>
                             </div>
                             <div class="mainmenu-left second-menu">
                                 <nav>
                                     <ul id="navigation_menu_2">
+
+                                        <li>
+                                            <a href="{{ route('services') }}">Events</a>
+                                            
+                                        </li>
                                        
                                         <li>
                                             <a href="{{ route('services') }}">Services</a>

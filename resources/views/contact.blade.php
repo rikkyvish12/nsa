@@ -25,12 +25,14 @@
     
     
     <!-- Map Canvas Start -->
-    <div id="map-canvas" class="map-canvas"></div>
+    <div id="map-canvas" class="map-canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30150.59211961607!2d72.97720478607815!3d19.15917920931207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf523dd8b5ab%3A0x9de9a7f73961da61!2sAiroli%2C%20Navi%20Mumbai%2C%20Maharashtra%20400708!5e0!3m2!1sen!2sin!4v1678083317694!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <!-- Map Canvas End -->
     
     
     <!-- Contact Form Area Start -->
-    <section class="kick-contact-form-area section_100">
+    <section class="kick-contact-form-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -81,29 +83,29 @@
     
     
     <!-- Contact Page Area Start -->
-    <section class="kick-contact-page-area section_t_100 section_b_70">
+    <section class="kick-contact-page-area section_t_100  section_100">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-contact-address">
-                        <h3>Manchester, UK</h3>
+                        <h3>Mumbai, India</h3>
                         <ul>
                             <li>
                                 <i class="fa fa-map-marker"></i>
-                                <p>123 Eccles Old Road, New Salford Road London, Uk, M6 7AF</p>
+                                <p>A/61, Sector No.3, Airoli, Navi Mumbai 400708</p>
                             </li>
                             <li>
                                 <i class="fa fa-phone"></i>
-                                <p>+44 123 456 788 - 9</p>
+                                <p>+91 9967143767</p>
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o"></i>
-                                <p>info@domain.com</p>
+                                <p>nsaindia123@gmail.com</p>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                {{-- <div class="col-md-4">
                     <div class="single-contact-address">
                         <h3>Bolton, UK</h3>
                         <ul>
@@ -140,7 +142,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

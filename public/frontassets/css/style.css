@@ -474,10 +474,10 @@ li {
 }
 .kick-site-logo > img {
     float: left;
-    left: 44%;
+    left: 40%;
     position: absolute;
-    width: 135px;
-    z-index: 99999;
+    width: 340px;
+    z-index: 100025;
 }
 .mainmenu-left li {
     display: inline-block;
@@ -700,18 +700,19 @@ li {
 }
 .last-match-logo {
     position: absolute;
-    right: -30px;
-    top: -62px;
-    width: 150px;
+    right: -149px;
+    top: -32px;
+    width: 250px;
+
 }
 .last-match-result-two {
     text-align: right;
 }
 .last-match-logo-right {
     position: absolute;
-    left: -30px;
-    top: -62px;
-    width: 150px;
+    left: -50px;
+    top: -35px;
+    width: 250px;
 }
 .last-match-score > h2 {
     color: #e01a22;
@@ -1088,8 +1089,8 @@ li {
 ==================================================*/
 
 .product-text {
-    background: #212121 none repeat scroll 0 0;
-    color: #fff;
+    /* background: #212121 none repeat scroll 0 0;
+    color: #fff; */
     padding: 10px;
     text-align: center;
 }
