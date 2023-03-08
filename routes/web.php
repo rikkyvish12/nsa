@@ -19,7 +19,24 @@ use App\Http\Controllers\LoginController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+Route::get('/abouts', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/galleries', function () {
+    return view('gallery');
+})->name('gallery');
+
+Route::get('/services', function () {
+    return view('services');
+})->name('services');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
 
 
 Route::get('login', [LoginController::class, 'show'])->name('login');

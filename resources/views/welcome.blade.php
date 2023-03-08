@@ -1,1100 +1,787 @@
-<!DOCTYPE html>
-<html lang="en">
-  
-<!-- Mirrored from themewagon.github.io/sportz/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Feb 2023 21:26:05 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
-    <title>Sportz &mdash; Colorlib Sports Team Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+@extends('layouts.front.header')
+@section('content')
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Header Area End -->
     
-  </head>
-  <body>
-  
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-logo">
-          <a href="#"><img src="images/logo.png" alt="Image"></a>
-        </div>
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-    <header class="site-navbar absolute transparent" role="banner">
-      <div class="py-3">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-6 col-md-3">
-              <a href="#" class="text-secondary px-2 pl-0"><span class="icon-facebook"></span></a>
-              <a href="#" class="text-secondary px-2"><span class="icon-instagram"></span></a>
-              <a href="#" class="text-secondary px-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="text-secondary px-2"><span class="icon-linkedin"></span></a>
-            </div>
-            <div class="col-6 col-md-9 text-right">
-              <div class="d-inline-block"><a href="#" class="text-secondary p-2 d-flex align-items-center"><span class="icon-envelope mr-3"></span> <span class="d-none d-md-block">youremail@domain.com</span></a></div>
-              <div class="d-inline-block"><a href="#" class="text-secondary p-2 d-flex align-items-center"><span class="icon-phone mr-0 mr-md-3"></span> <span class="d-none d-md-block">+1 232 3532 321</span></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="site-navigation position-relative text-right bg-black text-md-right" role="navigation">
-        <div class="container position-relative">
-          <div class="site-logo">
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
-          </div>
-
-          <div class="d-inline-block d-md-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
-
-          <ul class="site-menu js-clone-nav d-none d-md-block">
-            <li class="has-children active">
-              <a href="index.html">Home</a>
-              <ul class="dropdown arrow-top">
-                <li><a href="#">Menu One</a></li>
-                <li><a href="#">Menu Two</a></li>
-                <li><a href="#">Menu Three</a></li>
-                <li class="has-children">
-                  <a href="#">Sub Menu</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Menu One</a></li>
-                    <li><a href="#">Menu Two</a></li>
-                    <li><a href="#">Menu Three</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="has-children">
-              <a href="news.html">News</a>
-              <ul class="dropdown arrow-top">
-                <li><a href="#">Menu One</a></li>
-                <li><a href="#">Menu Two</a></li>
-                <li><a href="#">Menu Three</a></li>
-              </ul>
-            </li>
-            <li><a href="matches.html">Matches</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
     
-
-
-    <div class="slide-one-item home-slider owl-carousel">
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-start">
-            <div class="col-md-6 text-center text-md-left" data-aos="fade-up" data-aos-delay="400">
-              <h1 class="bg-text-line">Russia's World Cup Championship</h1>
-              <p><a href="#" class="btn btn-primary btn-sm rounded-0 py-3 px-5">Read More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_4.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-start">
-            <div class="col-md-6 text-center text-md-left" data-aos="fade-up" data-aos-delay="400">
-              <h1 class="bg-text-line">Russia's World Cup Championship</h1>
-              <p><a href="#" class="btn btn-primary btn-sm rounded-0 py-3 px-5">Read More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_3.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-start">
-            <div class="col-md-6 text-center text-md-left" data-aos="fade-up" data-aos-delay="400">
-              <h1 class="bg-text-line">Russia's World Cup Championship</h1>
-              <p><a href="#" class="btn btn-primary btn-sm rounded-0 py-3 px-5">Read More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>  
-    </div>
-    
-
-    <div class="site-section pt-0 feature-blocks-1" data-aos="fade" data-aos-delay="100">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4" >
-            <div class="p-3 p-md-5 feature-block-1 mb-5 mb-lg-0 bg" style="background-image: url('images/img_1.jpg');">
-              <div class="text">
-                <h2 class="h5 text-white">Russia's World Cup Championship</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat autem illum nostrum sit distinctio!</p>
-                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm px-4 py-2 rounded-0">Read More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="p-3 p-md-5 feature-block-1 mb-5 mb-lg-0 bg" style="background-image: url('images/img_2.jpg');">
-              <div class="text">
-                <h2 class="h5 text-white">Russia's World Cup Championship</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat autem illum nostrum sit distinctio!</p>
-                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm px-4 py-2 rounded-0">Read More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="p-3 p-md-5 feature-block-1 mb-5 mb-lg-0 bg" style="background-image: url('images/img_3.jpg');">
-              <div class="text">
-                <h2 class="h5 text-white">Russia's World Cup Championship</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat autem illum nostrum sit distinctio!</p>
-                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm px-4 py-2 rounded-0">Read More</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-blocks-vs site-section bg-light">
-      <div class="container">
-
-        <div class="border mb-3 rounded d-block d-lg-flex align-items-center p-3 next-match">
-          
-          <div class="mr-auto order-md-1 w-60 text-center text-lg-left mb-3 mb-lg-0">
-            Next match 
-            <div id="date-countdown"></div>
-          </div>
-
-          <div class="ml-auto pr-4 order-md-2">
-            <div class="h5 text-black text-uppercase text-center text-lg-left">
-              <div class="d-block d-md-inline-block mb-3 mb-lg-0">
-                <img src="images/img_1_sq.jpg" alt="Image" class="mr-3 image"><span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">Sea Hawlks </span>
-              </div>
-              <span class="text-muted mx-3 text-normal mb-3 mb-lg-0 d-block d-md-inline ">vs</span> 
-              <div class="d-block d-md-inline-block">
-                <img src="images/img_3_sq.jpg" alt="Image" class="mr-3 image"><span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">Patriots</span>
-              </div>
-            </div>
-          </div>
-          
-          
-        </div>
-
-        <div class="bg-image overlay-success rounded mb-5" style="background-image: url('images/hero_bg_1.jpg');" data-stellar-background-ratio="0.5">
-          
-          <div class="row align-items-center">
-            <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
-
-              <div class="text-center text-lg-left">
-                <div class="d-block d-lg-flex align-items-center">
-                  <div class="image mx-auto mb-3 mb-lg-0 mr-lg-3">
-                    <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                  </div>
-                  <div class="text">
-                    <h3 class="h5 mb-0 text-black">Sea Hawks</h3>
-                    <span class="text-uppercase small country text-black">Brazil</span>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-md-12 col-lg-4 text-center mb-4 mb-lg-0">
-              <div class="d-inline-block">
-                <p class="mb-2"><small class="text-uppercase text-black font-weight-bold">Premier League &mdash; Round 10</small></p>
-                <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h3">3:2</span></div>
-                <p class="mb-0"><small class="text-uppercase text-black font-weight-bold">10 September / 7:30 AM</small></p>
-              </div>
-            </div>
-
-            <div class="col-md-12 col-lg-4 text-center text-lg-right">
-              <div class="">
-                <div class="d-block d-lg-flex align-items-center">
-                  <div class="image mx-auto ml-lg-3 mb-3 mb-lg-0 order-2">
-                    <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                  </div>
-                  <div class="text order-1">
-                    <h3 class="h5 mb-0 text-black">Steelers</h3>
-                    <span class="text-uppercase small country text-black">London</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-
-            <h2 class="h6 text-uppercase text-black font-weight-bold mb-3">Latest Matches</h2>
-            <div class="site-block-tab">
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Match 1</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Match 2</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Match 3</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
-                  <div class="row align-items-center">
-                    <div class="col-md-12">
-
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Packers</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
+    <!-- Slider Area Start -->
+    <section class="kick-slider-area">
+        <div class="kick-slide">
+            <div class="kick-main-slide slide-item-1">
+                <div class="kick-main-caption">
+                    <div class="kick-caption-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <h2>National Sports Academy</h2>
+                                    <p>Friday, 10th Sep, 2018, 16:00GMT</p>
+                                    <a href="#" class="kick-btn">
+                                        buy tickets now
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
                             </div>
-                          </div>
-
                         </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Steelers</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Patriots</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Cowboys</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Raiders</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Chiefs</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
                     </div>
-
-                  </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                  <div class="row align-items-center">
-                    <div class="col-md-12">
-
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Packers</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
+            </div>
+            <div class="kick-main-slide slide-item-2">
+                <div class="kick-main-caption">
+                    <div class="kick-caption-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <h2>kika Semi Finals at city stadium</h2>
+                                    <p>Friday, 10th Sep, 2018, 16:00GMT</p>
+                                    <a href="#" class="kick-btn">
+                                        buy tickets now
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
                             </div>
-                          </div>
-
                         </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Steelers</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Patriots</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Cowboys</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Raiders</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Chiefs</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
                     </div>
-
-                  </div>
                 </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                  <div class="row align-items-center">
-                    <div class="col-md-12">
-
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Packers</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider Area End -->
+    
+    
+    <!-- About Area Start -->
+    <section class="kick-about-area section_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="kick-about-right">
+                        <div class="kick-section-heading">
+                            <h2>Welcome to<span> National Sports Academy</span></h2>
+                            <div class="title-line-one"></div>
+                            <div class="title-line-two"></div>
+                        </div>
+                        <p>
+                            National Sports Academy (NSA) is a leading multi-solutions provider of
+                            specially in Sports, Sports Education, Sports Development and Event
+                            Management. We are one of the most promising multi-sports cultural
+                            disciplined organisation in the India operating from its original permanent base
+                            in Mumbai.
+                        </p>
+                        <p>
+                            NSA is fully committed to high-quality performance to ensure customer
+                            satisfaction.Our approach to business in partnership-our clients and
+                            employees working together to achieve project/contract/business objectives in
+                            mutually beneficial manner
+                        </p><br>
+                        <p>
+                            Our main emphasis is on properly managing scope , schedule, budgets and
+                            quality.
+                            We conduct our business in line with best practices and with integrity and
+                            honesty. Continues improvement is a way of life at NSA and underlines our
+                            commitment to be the best service provider to our valued clients
+                        </p>
+                        {{-- <div class="row">
+                            <div class="col-md-6">
+                                <div class="single-about-right">
+                                    <div class="single-about-right-con">
+                                        <i class="fa fa-grav"></i>
+                                    </div>
+                                    <div class="single-about-right-text">
+                                        <h3>training capacity</h3>
+                                        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit. Nam sed ligula odio. Sed id metus felis.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Steelers</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
+                            <div class="col-md-6">
+                                <div class="single-about-right">
+                                    <div class="single-about-right-con">
+                                        <i class="fa fa-trophy"></i>
+                                    </div>
+                                    <div class="single-about-right-text">
+                                        <h3>winning history</h3>
+                                        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit. Nam sed ligula odio. Sed id metus felis.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
-
-                      <!-- END row -->
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Patriots</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="single-about-right">
+                                    <div class="single-about-right-con">
+                                        <i class="fa fa-line-chart"></i>
+                                    </div>
+                                    <div class="single-about-right-text">
+                                        <h3>match history</h3>
+                                        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit. Nam sed ligula odio. Sed id metus felis.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Cowboys</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
+                            <div class="col-md-6">
+                                <div class="single-about-right">
+                                    <div class="single-about-right-con">
+                                        <i class="fa fa-users"></i>
+                                    </div>
+                                    <div class="single-about-right-text">
+                                        <h3>team member</h3>
+                                        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit. Nam sed ligula odio. Sed id metus felis.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
-                      <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
-
-                          <div class="text-center text-lg-left">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                <img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text">
-                                <h3 class="h5 mb-0 text-black">Raiders</h3>
-                                <span class="text-uppercase small country">Brazil</span>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                          <div class="d-inline-block">
-                            <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">3:2</span></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                          <div class="">
-                            <div class="d-block d-lg-flex align-items-center">
-                              <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                <img src="images/img_4_sq.jpg" alt="Image" class="img-fluid">
-                              </div>
-                              <div class="text order-1 w-100">
-                                <h3 class="h5 mb-0 text-black">Chiefs</h3>
-                                <span class="text-uppercase small country">London</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- END row -->
-
+                        </div> --}}
                     </div>
-
-                  </div>
                 </div>
-              </div>
+                <div class="col-md-4">
+                    <div class="kick-about-left">
+                        <img src="frontassets/img/frontimg.jpg" alt="about player" />
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-    
-
-    <div class="site-section block-13 bg-primary fixed overlay-primary bg-image" style="background-image: url('images/hero_bg_3.jpg');"  data-stellar-background-ratio="0.5">
-
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-12 text-center">
-            <h2 class="text-white">More Game Highlights</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="nonloop-block-13 owl-carousel">
-        <div class="item">
-          <!-- uses .block-12 -->
-          <div class="block-12">
-            <figure>
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <!-- uses .block-12 -->
-          <div class="block-12">
-            <figure>
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <!-- uses .block-12 -->
-          <div class="block-12">
-            <figure>
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <!-- uses .block-12 -->
-          <div class="block-12">
-            <figure>
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="block-12">
-            <figure>
-              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-            </figure>
-            <div class="text">
-              <span class="meta">May 20th 2018</span>
-              <div class="text-inner">
-                <h2 class="heading mb-3"><a href="#" class="text-black">World Cup Championship</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, consectetur! Eligendi illo, repellat repudiandae cumque fugiat optio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-        </div>
-      </div>
-      
-    </div>
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-12 text-center">
-            <h2 class="text-black">Latest News</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="post-entry">
-              <div class="image">
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="text p-4">
-                <h2 class="h5 text-black"><a href="#">RealMad vs Striker Who Will Win?</a></h2>
-                <span class="text-uppercase date d-block mb-3"><small>By Colorlib &bullet; Sep 25, 2018</small></span>
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat beatae doloremque, ex corrupti perspiciatis.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="post-entry">
-              <div class="image">
-                <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="text p-4">
-                <h2 class="h5 text-black"><a href="#">RealMad vs Striker Who Will Win?</a></h2>
-                <span class="text-uppercase date d-block mb-3"><small>By Colorlib &bullet; Sep 25, 2018</small></span>
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat beatae doloremque, ex corrupti perspiciatis.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="post-entry">
-              <div class="image">
-                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="text p-4">
-                <h2 class="h5 text-black"><a href="#">RealMad vs Striker Who Will Win?</a></h2>
-                <span class="text-uppercase date d-block mb-3"><small>By Colorlib &bullet; Sep 25, 2018</small></span>
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat beatae doloremque, ex corrupti perspiciatis.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
+    <!-- About Area End -->
 
     
-    
-    <footer class="site-footer border-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">About Sportz</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus odio!</p>
+    <!-- Last Match Result Area Start -->
+    <section class="kick-last-match-result section_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="kick-section-heading">
+                        <h2>List Of <span>Sports We are into</span></h2>
+                        <div class="title-line-one"></div>
+                        <div class="title-line-two"></div>
+                    </div>
+                </div>
             </div>
-
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">Recent Blog</h3>
-              <div class="block-25">
-                <ul class="list-unstyled">
-                  <li class="mb-3">
-                    <a href="#" class="d-flex">
-                      <figure class="image mr-4">
-                        <img src="images/img_1.jpg" alt="" class="img-fluid">
-                      </figure>
-                      <div class="text">
-                        <h3 class="heading font-weight-light">Lorem ipsum dolor sit amet consectetur elit</h3>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mb-3">
-                    <a href="#" class="d-flex">
-                      <figure class="image mr-4">
-                        <img src="images/img_1.jpg" alt="" class="img-fluid">
-                      </figure>
-                      <div class="text">
-                        <h3 class="heading font-weight-light">Lorem ipsum dolor sit amet consectetur elit</h3>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mb-3">
-                    <a href="#" class="d-flex">
-                      <figure class="image mr-4">
-                        <img src="images/img_1.jpg" alt="" class="img-fluid">
-                      </figure>
-                      <div class="text">
-                        <h3 class="heading font-weight-light">Lorem ipsum dolor sit amet consectetur elit</h3>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-          </div>
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="row mb-5">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Quick Menu</h3>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Matches</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Team</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Membership</a></li>
-                </ul>
-              </div>
+            <div class="row">
+                <div class="last-match-box">
+                    <div class="col-md-5">
+                        <div class="last-match-result-one last-match-result">
+                            <div class="col-md-12">
+                                <h3 class="result">Olympic Sports</h3>
+                                <div class="result-details">
+                                    <h3 class="result-details-left">
+                                        <a href="#"> (Outdoor)</a>
+                                    </h3>
+                                    <ul>
+                                        <li><p>Athletics</p><span>Rugbdy</span></li>
+                                        <li><p>Football</p><span>Handball</span></li>
+                                        <li><p>Hockey</p><span>Baseball & Softbal</span></li>
+                                        <li><p>Shooting</p><span>Archery</span></li>
+                                    </ul>
+                                    <div class="last-match-logo">
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        {{-- <div class="last-match-score">
+                            <h2>2 <span class="devider">/</span> <span class="lose-point">4</span> </h2>
+                        </div> --}}
+                    </div>
+                    <div class="col-md-5">
+                        <div class="last-match-result-two last-match-result">
+                            <div class="col-md-12">
+                                <h3 class="result">Olympic Sports</h3>
+                                <div class="result-details">
+                                    <div class="last-match-logo-right">
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
+                                    </div>
+                                    <h3 class="result-details-right">
+                                        <a href="#">
+                                            (Indoor)
+                                        </a>
+                                    </h3>
+                                    <ul>
+                                        <li><p>Gymnastic</p><span>Volleyball</span></li>
+                                        <li><p>Table Tennis</p><span>Lawn Tennis</span></li>
+                                        <li><p>Badminton</p><span>Boxing</span></li>
+                                        <li><p>Squash</p><span>Fencing</span></li>
+                                        <li><p>Swimming</p><span></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="row">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Follow Us</h3>
-
-                <div>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                <div class="last-match-box">
+                    <div class="col-md-5">
+                        <div class="last-match-result-one last-match-result">
+                            <div class="col-md-12">
+                                <h3 class="result">Other Sports</h3>
+                                <div class="result-details">
+                                    <h3 class="result-details-left">
+                                        <a href="#"> (Outdoor)</a>
+                                    </h3>
+                                    <ul>
+                                        <li><p>Cricket</p><span>Dodge ball</span></li>
+                                        <li><p>Skating</p><span>Soft Tennis</span></li>
+                                        <li><p>Chess</p><span>Baseball & Softbal</span></li>
+                                        <li><p>Netball</p><span>Tug of War</span></li>
+                                    </ul>
+                                    <div class="last-match-logo">
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        {{-- <div class="last-match-score">
+                            <h2>2 <span class="devider">/</span> <span class="lose-point">4</span> </h2>
+                        </div> --}}
+                    </div>
+                    <div class="col-md-5">
+                        <div class="last-match-result-two last-match-result">
+                            <div class="col-md-12">
+                                <h3 class="result">Indian Sports</h3>
+                                <div class="result-details">
+                                    <div class="last-match-logo-right">
+                                        <a href="#"><img src="frontassets/img/loog.png" alt="logo" /></a>
+                                    </div>
+                                    <h3 class="result-details-right">
+                                        <a href="#">
+                                            Goa Fotball Federation
+                                        </a>
+                                    </h3>
+                                    <ul>
+                                        <li><p>Throw ball</p><span>Mallkhamb</span></li>
+                                        <li><p>Kho-Kho</p><span>Tennis Ball Cricket</span></li>
+                                        <li><p>Kabbaddi</p><span>Traditional Games</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
 
-          </div>
-
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">Watch Video</h3>
-
-              <div class="block-16">
-                <figure>
-                  <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid rounded">
-                  <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo"><span class="icon-play"></span></a>
-                </figure>
-              </div>
-
-            </div>
-
-            <div class="mb-5">
-              <h3 class="footer-heading mb-2">Subscribe Newsletter</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit minima minus odio.</p>
-
-              <form action="#" method="post">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary" type="button" id="button-addon2">Send</button>
-                  </div>
+{{--             
+            <div class="row">
+                <div class="view-all-result">
+                    <a href="#" class="kick-btn">view all Events</a>
                 </div>
-              </form>
-
-            </div>
-
-          </div>
-          
+            </div> --}}
         </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-
-  <script src="js/main.js"></script>
+    </section>
+    <!-- Last Match Result Area End -->
     
-  </body>
+    
+    <!-- Upcoming Matches Area Start -->
+    <section class="kick-upcoming-mathces-area section_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="kick-section-heading">
+                        <h2>Our <span>Services</span></h2>
+                        <div class="title-line-one"></div>
+                        <div class="title-line-two"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
 
-<!-- Mirrored from themewagon.github.io/sportz/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Feb 2023 21:26:08 GMT -->
-</html>
+                <div class="col-md-12">
+                    <div class="upcoming-slider">
+
+                        
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Sports Event Management</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Trainig Program Long and Short Duration</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Schools Coaching Programs</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single-upcoming-match">
+                                <h3>Services</h3>
+                                <p>10th sep<span>2023</span></p>
+                                <div class="upcoming-match-box">
+                                    <h4>Internationals Sports Tournaments</h4>
+                                    {{-- <p>Friday, 10th Sep, 2016, 16:00GMT</p> --}}
+                                    <div class="upcoming-teams-head">
+                                        <div class="row">
+        
+                                            <div class="">
+                                                <div style="margin-left:25%">
+                                                    <a href="#">
+                                                        <img src="frontassets/img/loog.png" alt="team image" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="upcoming-match-btn">
+                                        <a href="#" class="kick-btn">view more</a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Upcoming Matches Area End -->
+    
+    
+    <!-- Video Area Start -->
+{{-- 
+    <section class="kick-video-area section_100">
+        <div class="kick-video-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="youtube-text">
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=HJ7Yyo8gBuA">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="kick-video-wrap">
+                        <h2>club <span>ranking</span></h2>
+                        <div class="title-line-one"></div>
+                        <div class="title-line-two"></div>
+                        <div class="kick-score-scroll">
+                            <table class="table table-striped table-responsive">
+                                <tbody>
+                                    <tr>
+                                        <td><p>01</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-1.png" alt="rank image" />
+                                            <p>Ac milan</p>
+                                        </td>
+                                        <td><p>122</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>02</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-2.png" alt="rank image" />
+                                            <p>Fc Royal</p>
+                                        </td>
+                                        <td><p>118</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>03</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-3.png" alt="rank image" />
+                                            <p>Ninja King</p>
+                                        </td>
+                                        <td><p>110</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>04</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-4.png" alt="rank image" />
+                                            <p>Soccer club</p>
+                                        </td>
+                                        <td><p>98</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>05</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-5.png" alt="rank image" />
+                                            <p>mohamedan</p>
+                                        </td>
+                                        <td><p>88</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>06</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-6.png" alt="rank image" />
+                                            <p>Ac milan</p>
+                                        </td>
+                                        <td><p>82</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>07</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-7.png" alt="rank image" />
+                                            <p>Ac milan</p>
+                                        </td>
+                                        <td><p>79</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>08</p></td>
+                                        <td>
+                                            <img src="frontassets/img/rank-8.png" alt="rank image" />
+                                            <p>Bengal club</p>
+                                        </td>
+                                        <td><p>78</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     --}}
+    <!-- Video Area End -->
+    
+    
+    
+    
+    <!-- Match Gallery Area Start -->
+    <section class="kick-match-gallery-area section_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="kick-section-heading">
+                        <h2>Our <span>Gallery</span></h2>
+                        <div class="title-line-one"></div>
+                        <div class="title-line-two"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-match-gallery">
+                       <a href="frontassets/gallery/1.jpg" class="gallery-lightbox">
+                            <div class="project-img">
+                                <img src="frontassets/gallery/1.jpg" alt="single project" />
+                                <div class="single-pro-overlay">
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-match-gallery">
+                       <a href="frontassets/gallery/2.jpg" class="gallery-lightbox">
+                            <div class="project-img">
+                                <img src="frontassets/gallery/2.jpg" alt="single project" />
+                                <div class="single-pro-overlay">
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-match-gallery">
+                       <a href="frontassets/gallery/3.jpg" class="gallery-lightbox">
+                            <div class="project-img">
+                                <img src="frontassets/gallery/3.jpg" alt="single project" />
+                                <div class="single-pro-overlay">
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-match-gallery">
+                       <a href="frontassets/gallery/4.jpg" class="gallery-lightbox">
+                            <div class="project-img">
+                                <img src="frontassets/gallery/4.jpg" alt="single project" />
+                                <div class="single-pro-overlay">
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-match-gallery">
+                       <a href="frontassets/gallery/5.jpg" class="gallery-lightbox">
+                            <div class="project-img">
+                                <img src="frontassets/gallery/5.jpg" alt="single project" />
+                                <div class="single-pro-overlay">
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-match-gallery">
+                       <a href="frontassets/gallery/6.jpg" class="gallery-lightbox">
+                            <div class="project-img">
+                                <img src="frontassets/gallery/6.jpg" alt="single project" />
+                                <div class="single-pro-overlay">
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="load-more">
+                        <a href="{{ route('gallery') }}" class="kick-btn">View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Match Gallery Area End -->
+    
+    
+    <!-- Top Products Area Start -->
+    <section class="kick-top-products-area section_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="kick-section-heading">
+                        <h2>Our <span> Associates</span></h2>
+                        <div class="title-line-one"></div>
+                        <div class="title-line-two"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-product-slider">
+                        <div class="single-top-product">
+                            <div class="">
+                                <a href="#">
+                                    <img src="frontassets/img/asso/logo3.jpg" style="max-width:230px" alt="product image" />
+                                </a>
+                                
+                                <div class=""></div>
+                            </div>
+                            <div class="product-text">
+                                <h4><a href="">PSA</a></h4>
+                               
+                            </div>
+                        </div>
+                        <div class="single-top-product">
+                            <div class="">
+                                <a href="#">
+                                    <img src="frontassets/img/asso/fisce.jpg" style="max-width:230px" alt="product image" />
+                                </a>
+                               
+                            </div>
+                            <div class="product-text">
+                                <h3><a href="single-shop.html">FISCE</a></h3>
+                                
+                             
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="">
+                                <a href="#">
+                                    <img src="frontassets/img/asso/logo2.webp" style="max-width:230px" alt="product image" />
+                                </a>
+                             
+                                <div class="product-overlay"></div>
+                            </div>
+                            <div class="product-text">
+                                <h3><a href="single-shop.html">IYSA</a></h3>
+                              
+                            </div>
+                        </div>
+                        <div class="single-top-product">
+                            <div class="">
+                                <a href="#">
+                                    <img src="frontassets/img/asso/logo4.jpg" style="max-width:230px" alt="product image" />
+                                </a>
+                             
+                               
+                            </div>
+                            <div class="product-text">
+                                <h3><a href="single-shop.html">MPFI</a></h3>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Products Area End -->
+    
+    
+    <!-- Latest Post Area Start -->
+    <section class="kick-latest-post-area section_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="kick-section-heading">
+                        <h2>latest <span>post</span></h2>
+                        <div class="title-line-one"></div>
+                        <div class="title-line-two"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="single-latest-post">
+                        <a href="#"><img src="frontassets/gallery/file2.jpg" alt="post image" /></a>
+                        <div class="single-post-text">
+                            <h3><a href="#">Winner of State Football Championship (Youth)</a></h3>
+                            <p class="post-date">11 Aug, 2018 / NSA</p>
+                            <p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
+                            <div class="post-text-bottom">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="admin-image">
+                                            <img src="frontassets/img/admin.jpg" alt="admin" />
+                                            <a href="#">Tarin Smith</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="admin-image-right">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-eye"></i>
+                                                    90
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    228
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-comment-o"></i>
+                                                        432
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="single-latest-post">
+                        <a href="#"><img src="frontassets/gallery/13.jpg" alt="post image" /></a>
+                        <div class="single-post-text">
+                            <h3><a href="#">Closing ceremony of London Olympic -2012</a></h3>
+                            <p class="post-date">11 Aug, 2018 / NSA</p>
+                            <p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
+                            <div class="post-text-bottom">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="admin-image">
+                                            <img src="frontassets/img/admin.jpg" alt="admin" />
+                                            <a href="#">Michel Smith</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="admin-image-right">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-eye"></i>
+                                                    90
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    228
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-comment-o"></i>
+                                                        432
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Post Area End -->
+    
+    
+
+@include('layouts.front.footer')
+@endsection
